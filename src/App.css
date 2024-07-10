@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+.results-box{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+.form-box{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  overflow:hidden;
+}
+form {
+  flex: 1 1 auto; /* Allow forms to shrink and grow */
+  overflow: auto; /* Enable scrolling within the form if necessary */
+}
+.bt-1{
+  width: 100px;
+}
+header, footer {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.results-box {
+  /* Styles for the results container (e.g., padding, margin) */
+  padding: 10px; /* Example padding */
+  border: 1px solid #ddd; /* Example border (optional) */
+}
+
+.main-table {
+  /* Styles for the table itself */
+  border-collapse: collapse; /* Ensure proper cell borders */
+  width: 100%; /* Set a default width */
+}
+
+.main-table th, .main-table td {
+  /* Styles for table cells (padding, border, text alignment) */
+  padding: 5px 10px; /* Example padding */
+  border: 1px solid #ddd; /* Example border */
+  text-align: left; /* Set default text alignment */
+  
+}
+
+.main-table th {
+  /* Styles for table headers (font weight, background color) */
+  font-weight: bold;
+  background-color: #f5f5f5; /* Example background color */
+  
+}
